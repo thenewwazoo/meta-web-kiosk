@@ -1,5 +1,5 @@
-SUMMARY = "Basic X11 session with Midori Browser"
-DESCRIPTION = "Packages required to set up a basic working X11 session that incorporates the Midori Browser"
+SUMMARY = "Basic X11 session with Chromium Browser"
+DESCRIPTION = "Packages required to set up a basic working X11 session that incorporates the Chromium Browser"
 LICENSE = "MIT"
 PR = "r1"
 
@@ -13,7 +13,5 @@ RCONFLICTS_${PN} = "task-core-x11-mini task-core-x11-browser"
 RDEPENDS_${PN} = "\
     matchbox-keyboard   \
     matchbox-keyboard-im    \
-    liberation-fonts \
-    midori  \
-    ssh-keys-server \
+    chromium  \
     "

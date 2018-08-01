@@ -11,4 +11,4 @@ LICENSE = "MIT"
 
 inherit core-image
 
-IMAGE_INSTALL += " packagegroup-x11-browser midori-session"
+IMAGE_INSTALL += " packagegroup-x11-browser"
