@@ -13,5 +13,5 @@ RCONFLICTS_${PN} = "task-core-x11-mini task-core-x11-browser"
 RDEPENDS_${PN} = "\
     matchbox-keyboard   \
     matchbox-keyboard-im    \
-    chromium  \
+    chromium-imx  \
     "
